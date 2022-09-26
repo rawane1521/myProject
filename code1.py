@@ -25,7 +25,7 @@ st.set_page_config(
 st.balloons()
 st.title('World Ranking Universities')
 
-st.success("Welcome to the analysis of your future!")
+st.success("Welcome to the analysis of your future! Listen to some relaxing music while exploring our page.")
 
 #importing dataset
 timesData = pd.read_csv("timesData.csv")
