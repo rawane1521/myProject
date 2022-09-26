@@ -28,7 +28,7 @@ st.title('World Ranking Universities')
 st.success("Welcome to the analysis of your future!")
 
 #importing dataset
-timesData = pd.read_csv("C:/Users/Rawane/Desktop/MSBA/Data Visualization/Assignment 1/World University Rankings/timesData.csv")
+timesData = pd.read_csv("timesData.csv")
 
 
 audio_file = open('C:/Users/Rawane/Downloads/Welcome Ringtone.oga', 'rb')
