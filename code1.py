@@ -31,7 +31,7 @@ st.success("Welcome to the analysis of your future!")
 timesData = pd.read_csv("timesData.csv")
 
 
-audio_file = open('C:/Users/Rawane/Downloads/Welcome Ringtone.oga', 'rb')
+audio_file = open('Welcome Ringtone.oga', 'rb')
 audio_bytes = audio_file.read()
 
 st.audio(audio_bytes, format='audio/ogg')
